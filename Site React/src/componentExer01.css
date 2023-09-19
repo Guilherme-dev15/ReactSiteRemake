@@ -1,0 +1,773 @@
+@import url("font.css");
+
+.container-support {
+    height: 4rem;
+    display: flex;
+    width: 100%;
+    gap: .5rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #374151;
+    font-size: 1.7rem;
+    padding: .8rem 0;
+    line-height: 1.375;
+    font-weight: 600;
+}
+
+.container-support .linkUkranie,
+.linkUkranie span {
+    -webkit-margin-start: 0;
+    margin-inline-start: 0;
+    color: #3c8cb4;
+    text-decoration: none;
+}
+
+.linkUkranie a:hover {
+    color: #367b9e;
+    text-decoration: underline;
+}
+
+.container-nav {
+    display: flex;
+    flex-direction: column;
+    z-index: 50;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #23272F;
+
+}
+
+.navbar-container {
+    height: 6.4rem;
+    width: 100%;
+    padding: 0 .6rem;
+}
+
+.navbar-container-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6.4rem;
+    width: 100%;
+    gap: 0;
+
+}
+
+.navbar-content-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-content-left a {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: .4rem;
+    cursor: pointer;
+}
+
+.navbar-content-left button {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #23272F;
+    height: 4.8rem;
+    width: 4.8rem;
+    border-radius: 999px;
+    cursor: pointer;
+}
+
+.spanReact {
+    font-size: 1.7rem;
+}
+
+.content-left,
+.content-left-a,
+.content-right-button-search,
+.content-right-button-light,
+.content-right-button-github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4.8rem;
+    width: 4.8rem;
+}
+
+.navbar-content-rigth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.6rem;
+}
+
+.navbar-content-rigth button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #23272F;
+    cursor: pointer;
+    border-radius: 999px;
+}
+
+.navbar-content-rigth a {
+    display: flex;
+    align-items: center;
+    border-radius: 999px;
+}
+
+.container {
+    padding-inline-start: 0;
+    overflow-wrap: break-word;
+    font-weight: 400;
+    margin: auto;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 9.6rem;
+    margin-bottom: 12.8rem;
+}
+
+.logo-react {
+    display: flex;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+    width: 11.2rem;
+    align-self: center;
+    margin-inline-end: 0;
+    transform-origin: center;
+}
+
+.container-content h1 {
+    font-size: 5.2rem;
+    font-family: Optimistic Display, -apple-system, ui-sans-serif, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    align-self: center;
+    display: flex;
+    font-weight: 600;
+    line-height: 1.375;
+}
+
+.container-content p {
+    font-size: 3.2rem;
+    font-family: Optimistic Display, -apple-system, ui-sans-serif, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    max-width: 100%;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    text-align: center;
+    line-height: 1.375;
+    align-self: center;
+}
+
+.links-btn {
+    display: flex;
+    flex-direction: row;
+    grid-gap: .8rem;
+    gap: .8rem;
+    width: auto;
+    margin-top: 2rem;
+    align-self: center;
+
+}
+
+.links-btn a {
+    display: inline-flex;
+    text-decoration: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    font-weight: 700;
+    outline: 2px solid transparent;
+    line-height: 1.375;
+    font-size: 1.7rem;
+    padding: 1.1rem 2.6rem 1.1rem 2.6rem;
+    border-radius: 999px;
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: .15s;
+    color: white;
+}
+
+.links-btn :nth-child(1) {
+    background-color: #147899;
+}
+
+.links-btn :nth-child(1):hover {
+    transition: 200ms;
+    background-color: #0D6D8C;
+}
+
+.links-btn :nth-child(2) {
+    border: 1px solid #4d5463;
+}
+
+.container-2nd {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top-width: 1px;
+    border-color: rgba(35, 39, 47, .1);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1D2026;
+}
+
+.content-container-2nd {
+    display: flex;
+    flex-direction: column;
+    grid-gap: .8rem;
+    gap: .8rem;
+    flex-grow: 1;
+    width: 100%;
+    margin: 12.8rem auto;
+    align-items: center;
+
+}
+
+.content-2nd-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    max-width: 76.8rem;
+}
+
+.content-2nd-content h1 {
+    line-height: 1.15;
+    font-weight: 600;
+    font-size: 5.2rem;
+    margin-top: -1.6rem;
+    margin-bottom: 2.8rem;
+    width: 100%;
+    max-width: 57.6rem;
+}
+
+.content-2nd-content p {
+    max-width: 76.8rem;
+    margin: 0 auto;
+    font-size: 2.1rem;
+    line-height: 1.5;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+code {
+    display: inline;
+    border-radius: .8rem;
+    background-color: #404756;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    padding-left: .4rem;
+    padding-right: .4rem;
+    text-align: left;
+    margin: .4rem;
+
+}
+
+footer {
+    text-align: center;
+}
+
+@media (max-width: 639px) {
+    .container-nav {
+        display: flex;
+        flex-direction: column;
+        z-index: 50;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background-color: #23272F;
+
+    }
+
+    .navbar-container {
+        height: 6.4rem;
+        width: 100%;
+        padding: 0 .6rem;
+    }
+
+    .container-support,
+    .spanReact {
+        display: none;
+    }
+
+    .navbar-container-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 6.4rem;
+        width: 100%;
+        gap: 0;
+
+    }
+
+    .navbar-content-left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navbar-content-left a {
+        display: inline-flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: .4rem;
+        cursor: pointer;
+    }
+
+    .navbar-content-left button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background-color: #23272F;
+        height: 4.8rem;
+        width: 4.8rem;
+        border-radius: 999px;
+        cursor: pointer;
+    }
+
+    .content-left,
+    .content-left-a,
+    .content-right-button-search,
+    .content-right-button-light,
+    .content-right-button-github {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 4.8rem;
+        width: 4.8rem;
+    }
+
+    .navbar-content-rigth {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0.6rem;
+    }
+
+    .navbar-content-rigth button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background-color: #23272F;
+        cursor: pointer;
+        border-radius: 999px;
+    }
+
+    .navbar-content-rigth a {
+        display: flex;
+        align-items: center;
+        border-radius: 999px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-inline-start: 0;
+    }
+
+    .container-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 4.8rem;
+        margin-bottom: 8rem;
+    }
+
+    .logo-react {
+        display: flex;
+        margin-top: 1.6rem;
+        margin-bottom: 1.2rem;
+        width: 9.6rem;
+        align-self: center;
+        margin-inline-end: 0;
+        transform-origin: center;
+    }
+
+    .container-content h1 {
+        font-size: 4rem;
+        font-family: Optimistic Display, -apple-system, ui-sans-serif, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        align-self: center;
+        display: flex;
+        font-weight: 600;
+        line-height: 1.375;
+    }
+
+    .container-content p {
+        font-size: 3.2rem;
+        font-family: Optimistic Display, -apple-system, ui-sans-serif, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        max-width: 51.2rem;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        text-align: center;
+        line-height: 1.375;
+        align-self: center;
+    }
+
+    .links-btn {
+        display: flex;
+        flex-direction: column;
+        grid-gap: .8rem;
+        gap: .8rem;
+        width: 100%;
+        margin-top: 2.4rem;
+        align-self: center;
+
+    }
+
+    .links-btn a {
+        display: inline-flex;
+        text-decoration: none;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-weight: 700;
+        outline: 2px solid transparent;
+        line-height: 1.375;
+        font-size: 1.7rem;
+        padding: 1.2rem 0;
+        border-radius: 999px;
+    }
+
+    .links-btn :nth-child(1) {
+        background-color: #147899;
+    }
+
+    .links-btn :nth-child(1):hover {
+        transition: 200ms;
+        background-color: #0D6D8C;
+    }
+
+    .links-btn :nth-child(2) {
+        border: 1px solid #4d5463;
+    }
+
+    .container-2nd {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-top-width: 1px;
+        border-color: rgba(35, 39, 47, .1);
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #1D2026;
+    }
+
+    .content-container-2nd {
+        display: flex;
+        flex-direction: column;
+        grid-gap: .8rem;
+        gap: .8rem;
+        flex-grow: 1;
+        width: 100%;
+        margin: 8rem auto;
+        align-items: center;
+
+    }
+
+    .content-2nd-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        max-width: 76.8rem;
+    }
+
+    .content-2nd-content h1 {
+        line-height: 1.15;
+        font-weight: 600;
+        font-size: 4rem;
+        margin-top: -1.7rem;
+        margin-bottom: 2.8rem;
+        width: 100%;
+        max-width: 76.8rem;
+    }
+
+    .content-2nd-content p {
+        max-width: 76.8rem;
+        margin: 0 auto;
+        font-size: 1.7rem;
+        line-height: 1.5;
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    }
+
+    code {
+        display: inline;
+        border-radius: .8rem;
+        background-color: #404756;
+        padding-top: .2rem;
+        padding-bottom: .2rem;
+        padding-left: .4rem;
+        padding-right: .4rem;
+        text-align: left;
+        margin: .4rem;
+
+    }
+}
+
+@media (max-width: 1024px) {
+    .container-nav {
+        display: flex;
+        flex-direction: column;
+        z-index: 50;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background-color: #23272F;
+
+    }
+
+    .spanReact {
+        display: none;
+    }
+
+    .navbar-container {
+        height: 6.4rem;
+        width: 100%;
+        padding: 0 .6rem;
+    }
+
+    .navbar-container-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 6.4rem;
+        width: 100%;
+        gap: 0;
+
+    }
+
+    .navbar-content-left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navbar-content-left a {
+        display: inline-flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: .4rem;
+        cursor: pointer;
+    }
+
+    .navbar-content-left button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background-color: #23272F;
+        height: 4.8rem;
+        width: 4.8rem;
+        border-radius: 999px;
+        cursor: pointer;
+    }
+
+    .content-left,
+    .content-left-a,
+    .content-right-button-search,
+    .content-right-button-light,
+    .content-right-button-github {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 4.8rem;
+        width: 4.8rem;
+    }
+
+    .navbar-content-rigth {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0.6rem;
+    }
+
+    .navbar-content-rigth button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background-color: #23272F;
+        cursor: pointer;
+        border-radius: 999px;
+    }
+
+    .navbar-content-rigth a {
+        display: flex;
+        align-items: center;
+        border-radius: 999px;
+    }
+
+    .container {
+        padding-inline-start: 0;
+        overflow-wrap: break-word;
+        font-weight: 400;
+        margin: auto;
+    }
+
+    .container-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 4.8rem;
+        margin-bottom: 8rem;
+    }
+
+    .logo-react {
+        display: flex;
+        margin-top: 1.6rem;
+        margin-bottom: 1.6rem;
+        width: 9.6rem;
+        align-self: center;
+        margin-inline-end: 0;
+        transform-origin: center;
+    }
+
+    .container-content h1 {
+        font-size: 4rem;
+        font-family: Optimistic Display, -apple-system, ui-sans-serif, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        align-self: center;
+        display: flex;
+        font-weight: 600;
+        line-height: 1.375;
+    }
+
+    .container-content p {
+        font-size: 3.2rem;
+        font-family: Optimistic Display, -apple-system, ui-sans-serif, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        max-width: 100%;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
+        text-align: center;
+        line-height: 1.375;
+        align-self: center;
+    }
+
+    .links-btn {
+        display: flex;
+        flex-direction: row;
+        grid-gap: .8rem;
+        gap: .8rem;
+        width: auto;
+        margin-top: 2rem;
+        align-self: center;
+
+    }
+
+    .links-btn a {
+        display: inline-flex;
+        text-decoration: none;
+        cursor: pointer;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        font-weight: 700;
+        outline: 2px solid transparent;
+        line-height: 1.375;
+        font-size: 1.7rem;
+        padding: 1.1rem 2.6rem 1.1rem 2.6rem;
+        border-radius: 999px;
+        transition-property: transform;
+        transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+        transition-duration: .15s;
+        color: white;
+    }
+
+    .links-btn :nth-child(1) {
+        background-color: #147899;
+    }
+
+    .links-btn :nth-child(1):hover {
+        transition: 200ms;
+        background-color: #0D6D8C;
+    }
+
+    .links-btn :nth-child(2) {
+        border: 1px solid #4d5463;
+    }
+
+    .container-2nd {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-top-width: 1px;
+        border-color: rgba(35, 39, 47, .1);
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #1D2026;
+    }
+
+    .content-container-2nd {
+        display: flex;
+        flex-direction: column;
+        grid-gap: .8rem;
+        gap: .8rem;
+        flex-grow: 1;
+        width: 100%;
+        margin: 8rem auto;
+        align-items: center;
+
+    }
+
+    .content-2nd-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        max-width: 76.8rem;
+    }
+
+    .content-2nd-content h1 {
+        line-height: 1.15;
+        font-weight: 600;
+        font-size: 4rem;
+        margin-top: -1.7rem;
+        margin-bottom: 2.8rem;
+        width: 100%;
+        max-width: 76.8rem;
+    }
+
+    .content-2nd-content p {
+        max-width: 76.8rem;
+        margin: 0 auto;
+        font-size: 1.7rem;
+        line-height: 1.5;
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    }
+
+    code {
+        display: inline;
+        border-radius: .8rem;
+        background-color: #404756;
+        padding-top: .2rem;
+        padding-bottom: .2rem;
+        padding-left: .4rem;
+        padding-right: .4rem;
+        text-align: left;
+        margin: .4rem;
+
+    }
+}
